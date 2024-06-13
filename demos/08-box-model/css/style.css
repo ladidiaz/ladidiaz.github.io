@@ -1,0 +1,19 @@
+div {
+    color: whitesmoke;
+    border: 7px dotted greenyellow;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: navy
+}
+
+p {
+    border: 20px solid blue;
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: lightgreen;
+    border-radius: 0px 0px 50px 50px;
+}
+
+img {
+    border: blue dotted 5px ;
+}
