@@ -1,0 +1,147 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CA:wght@100..400&display=swap');
+
+div#license {
+    width: 700px;
+    border: solid navy;
+    border-radius: 10%;
+    padding: 24px;
+    background: linear-gradient(skyblue, skyblue, white, navy)
+}
+
+
+div#left-side {
+    display: inline-block;
+    width: 65%;
+}
+
+
+div#right-side {
+    display: inline-block;
+    width: 34%;
+}
+
+
+#id-and-expiration div {
+    display: inline-block;
+}
+
+
+div#small-pic-container  {
+    display: inline-block;
+}
+
+
+div#data-fields {
+    display: inline-block;
+}
+
+
+div#small-pic-container img {
+    width: 100%;
+}
+
+
+div#data-left {
+    display: inline-block;
+}
+
+
+div#data-right {
+    display: inline-block;
+}
+
+
+div#signature {
+    text-align: center;
+}
+
+
+div#right-side img {
+    width: 100%;
+}
+
+
+div#donor {
+    display: inline-block;
+}
+
+
+div#real-id {
+    display: inline-block;
+}
+
+div h1 {
+    color: navy;
+    font-size: 50px;
+    margin: 0%;
+}
+
+
+div h4 {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0%;
+}
+
+
+div#id-and-expiration {
+    color: navy;
+}
+
+
+div#id-and-expiration span {
+    color: red;
+    font-weight: bold;
+    margin: 0px 15px 10px 0px;
+  
+}
+
+
+div#address {
+    font-weight: bold;
+    margin: 12px 10px 10px 0px;
+}
+
+div#data-fields {
+    vertical-align: top;
+    margin: 12px;
+}
+
+
+div#data-fields span {
+    color: red;
+    font-weight: bold;
+}
+
+div#data-right {
+    margin: 12px;
+    color: navy;
+    
+}
+
+div#data-left {
+    color: navy;
+}
+
+div#signature {
+    font-family: "Playwrite CA", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+div#donor{
+    color: red;
+}
