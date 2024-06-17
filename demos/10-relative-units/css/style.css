@@ -1,0 +1,26 @@
+img.small {
+    width: 200px;
+}
+
+img.stretch {
+    width: 100%;
+}
+
+.outer-container {
+    border: 3px solid red;
+    width: 66%;
+}
+
+.inner-container {
+    border: 3px solid blue;
+    width: 50%;
+}
+
+.inner-container img {
+    width: 50%;
+    display: block;
+}
+
+/* display block helps get rid off the space under the image because images are 
+an inline element so it is treated like text which gives space for the curved
+letters  */
