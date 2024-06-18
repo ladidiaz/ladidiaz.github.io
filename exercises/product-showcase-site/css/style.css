@@ -18,12 +18,35 @@ body {
 
 .first-container {
     background-color: grey;
+    font-style: oblique;
+    border: 25px black solid;
 }
 
 .second-container {
     background-color: skyblue;
+    font-style: oblique;
+    border: 25px rgba(51, 51, 214, 0.812) solid;
 }
 
 .third-container {
     background-color: pink;
+    font-style: oblique;
+    border: 25px rgb(179, 50, 71) solid;
+}
+
+h1, 
+h2,
+h3 {
+    text-align: center;
+}
+
+.single-column img {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px dotted white;
+}
+
+.single-column h1 {
+    text-decoration: underline;
 }
