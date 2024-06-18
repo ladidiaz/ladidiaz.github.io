@@ -131,8 +131,7 @@ div h4 {
 
 #data-right {
     margin: 12px;
-    color: navy;
-    
+    color: navy;   
 }
 
 #data-left {
@@ -142,4 +141,3 @@ div h4 {
 #signature {
     font-family: "Playwrite CA", "cursive";
 }
-
