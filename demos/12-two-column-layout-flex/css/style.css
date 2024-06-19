@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    background-color: pink;
+    width: 250px;
+    padding: 24px;
+    border-right: 2px solid hotpink;
+}
+
+#main-content {
+    flex: 1;
+    padding: 48px;
+}
+
+#sidebar-content h2 {
+    border-bottom: 2px solid hotpink;
+    padding-bottom: 8px;
+}
+
+#sidebar-content ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#sidebar-content ul a {
+    color: hotpink;
+    text-decoration: none;
+}
+
+#sidebar-content ul li {
+    padding: 4px 0px;
+}
