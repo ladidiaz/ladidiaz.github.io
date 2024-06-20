@@ -70,3 +70,16 @@ img {
 #main-content h4 {
     margin-top: 5px;
 }
+
+#date {
+    text-align: right;
+    padding: 12px 2px 0px;
+}
+
+#mom {
+    margin: 5px;
+}
+
+#author {
+    margin: 5px 5px 50px;
+}
