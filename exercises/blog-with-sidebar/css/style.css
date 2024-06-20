@@ -14,9 +14,6 @@ body {
     margin: 24px 0px;
 }
 
-/* grid-template-areas: ". your selector name ."; can center your layout 
-and add gutters  */
-
 #sidebar-content {
     padding: 24px;
     grid-area: sidebar;
@@ -59,3 +56,17 @@ and add gutters  */
     border: 3px solid hotpink;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid hotpink;
+}
+
+#main-content h1 {
+    margin: 0px;
+}
+
+#main-content h4 {
+    margin-top: 5px;
+}
