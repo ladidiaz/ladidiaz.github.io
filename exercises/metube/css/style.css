@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background: linear-gradient(grey, #111111, #111111);
     color: whitesmoke;
 }
@@ -118,4 +118,9 @@ body {
 
 .metube-item img {
     width: 100%
+}
+
+.metube-item img {
+    border-radius: 10% 30%;
+    padding: 15px;
 }
