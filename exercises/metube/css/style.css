@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: linear-gradient(grey, #111111, #111111);
     color: whitesmoke;
 }
@@ -80,18 +80,8 @@ body {
     margin-left: 24px;
 }
 
-.metube-item .thumbnail-placeholder {
-    background: radial-gradient(
-        at top left, 
-        crimson,
-        orange
-    );
-    aspect-ratio: 16 / 9;
-    border-radius: 8px;
-}
-
 .metube-item h4 {
-    margin: 8px
+    margin: 8px;
 }
 
 .metube-item h4 a {
@@ -117,7 +107,7 @@ body {
 }
 
 .metube-item img {
-    width: 100%
+    width: 500px;
 }
 
 .metube-item img {
