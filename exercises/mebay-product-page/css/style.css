@@ -99,6 +99,10 @@ body {
     color: red;
 }
 
+h1 #m {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 h1 #b { 
     color: blue;
 }
