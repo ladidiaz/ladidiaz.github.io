@@ -1,0 +1,103 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;;
+}
+
+h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+
+#reminder {
+    background-color: lightcoral;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 24px;
+    padding: 24px;
+    font-size: 20px;
+    box-shadow: 8px 8px 4px #111111;
+}
+
+#reminder h3 {
+    text-align: center;
+}
+
+#motivation {
+    background-color: lightgreen;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 8px 8px 4px #111111;
+}
+
+#girl-code {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 24px;
+    padding: 2px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 8px 8px 4px #111111;
+}
+
+#rocketpower {
+    display: inline-block;
+    height: 350px;
+    margin: 24px;
+    padding: 24px;
+    border: 5px dashed orangered;
+    background-color: white;
+    box-shadow: 8px 8px 4px #111111;
+}
+
+#reminder2 {
+    background-color: lightskyblue;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    text-align: center;
+    box-shadow: 8px 8px 4px #111111;
+}
+
+#workout {
+    background-color: rgb(243, 200, 90);
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    font-size: 25px;
+    border: 25px dotted lightgoldenrodyellow;
+    box-shadow: 8px 8px 4px #111111;
+}
+
+.row1,
+.row2 {
+    display:flex;
+    justify-content: space-around;
+}
