@@ -10,7 +10,7 @@
 
 .card-style-1 {
     max-width: 350px;
-    margin: 48px auto;
+    margin:  18px auto;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -24,6 +24,7 @@
 
 .card-style-1 p {
     padding: 24px;
+    margin: 0px;
 }
 
 .card-style-1 a {
@@ -39,6 +40,7 @@
 
 .card-style-1 a:hover {
     background-color: transparent;
+    color: green;
 
 }
 
