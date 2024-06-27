@@ -9,16 +9,18 @@
 */
 
 .card-style-3 {
-    background-color: gold;
     border: 12px solid goldenrod;
     margin: 36px;
     padding: 12px;
     border-radius: 10px;
     max-width: 350px;
+    display: flex;
+    flex-direction: column;
 }
 .card-style-3 .pokemon-header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0px;
 }
 
 .card-style-3 .pokemon-header .name {
@@ -26,7 +28,7 @@
 }
 
 .card-style-3 .pokemon-header .health {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .card-style-3 img {
@@ -35,11 +37,84 @@
 }
 
 .card-style-3 .details {
-    background-color: goldenrod;
-    font-size: 14px;
+    background: linear-gradient(
+        to right,
+        goldenrod,
+        yellow,
+        goldenrod
+    );
+    font-size: 12px;
+    font-weight: bold;
     font-style: italic;
     display: flex;
     justify-content: center;
+    margin: 5px;
 }
 
-.card-style-3 
+.card-style-3 .attack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black ;
+}
+
+.card-style-3 .energy {
+    padding: 24px;
+    margin: 12px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.power {
+    font-weight: bold;
+    font-size: 24px;;
+}
+
+.data {
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid goldenrod;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+#pokemon-card-1 {
+    background: linear-gradient(
+        to bottom left,
+        lightgreen,
+        green,
+        lightgreen
+    );
+}
+
+#pokemon-card-2 {
+    background: linear-gradient(
+        to bottom left,
+        purple,
+        violet,
+        purple
+    );
+}
+
+#pokemon-card-3 {
+    background: linear-gradient(
+        to bottom left,
+        orangered,
+        gold,
+        orangered
+    );
+}
+
+#pokemon-card-4 {
+    background: linear-gradient(
+        to bottom left,
+        lightgreen,
+        green,
+        lightgreen
+    );
+}
