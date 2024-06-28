@@ -6,11 +6,12 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-
+/* Hero 1 */
 #hero-1 {
     background-image: url("../images/AJ1\ Retro\ High.jpg");
     height: 100vh;
     background-size: cover;
+    background-position: center center;
     display: flex;
     align-items: flex-start;
 }
@@ -42,27 +43,86 @@ body {
     padding: 10px;
     text-decoration: none;
     margin: 10px;
-    border-radius: 5%;   
+    min-width: 100px;
 }
 
+/* Hero 2 */
 #hero-2 {
     background-image: url("../images/Dunk\ Retro\ Low.jpg");
     height: 100vh;
     background-size: cover;
+    background-position: right 50% bottom 55%;
     display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .hero-2-content h1 {
-    color: rgb(130, 109, 109);
+    color: rgb(162, 134, 134);
     font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 0px;
+    margin-left: 50px;
+    
 }
 
 .hero-2-content p {
     color: rgb(217, 202, 202);
     font-size: 30px;
     margin-top: 0px;
+    margin-left: 30px;
+}
+
+.hero-2-content a {
+    display: inline-block;
+    background-color: whitesmoke;
+    color: rgb(169, 89, 43);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+    min-width: 100px;
+}
+
+/* Hero 3 */
+
+#hero-3 {
+    background-image: url("../images/Nike\ AF1.jpg");
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-3-content {
+    margin-top: 16px;
     text-align: center;
+}
+
+.hero-3-content h1 {
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero-3-content p {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 0px;
+}
+
+.hero-3-content a {
+    display: inline-block;
+    background-color: #111111;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5%;
+    margin: 10px;
+    margin-top: 0px;
+    justify-content: center;
+    min-width: 100px;
 }
