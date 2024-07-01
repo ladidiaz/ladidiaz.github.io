@@ -5,4 +5,49 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgba(31, 231, 249, 0.324);
+}
+
+#single-column-layout {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 26px;
+}
+
+#dolphin-hero {
+    background-image: url("../images/dolphinH.jpg");
+    height: 80vh;
+    background-size: cover;
+    border-radius: 10px; 
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#dolphin-hero h1 {
+    color: whitesmoke;
+    margin: 36px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#single-column-layout h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    color: rgb(25, 25, 155);
+}
+
+#dolphin-gallery img {
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 10%;
+}
+
+#dolphin-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
 }
