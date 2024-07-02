@@ -63,7 +63,8 @@ body {
     justify-content: center;
     margin-top: 24px;
     border-radius: 10px;
-    font-family: "Luckiest Guy", cursive; 
+    font-family: "Luckiest Guy", cursive;
+    text-align: center; 
 }
 
 .cards #about {
@@ -86,9 +87,7 @@ body {
 
 .cards #about a {
     text-decoration: none;
-    text-align: center;
     color: orange;
-    margin: 70px;
     font-weight: bolder;
     font-size: 36px;
 }
