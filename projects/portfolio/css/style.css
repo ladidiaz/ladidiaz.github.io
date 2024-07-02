@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -25,15 +27,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 5px solid orange;
     border-radius: 10px;
 }
 
 #hero-container h1 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
     font-size: 70px;
     color: orange; 
+    font-family: "Luckiest Guy", cursive;
 }
 
 #hero-container a {
@@ -49,11 +53,17 @@ body {
     font-weight: bold;
 }
 
+#hero-container a:hover {
+    background-color: transparent;
+    color: orange;
+}
+
 .cards {
     display: flex;
     justify-content: center;
     margin-top: 24px;
     border-radius: 10px;
+    font-family: "Luckiest Guy", cursive; 
 }
 
 .cards #about {
@@ -64,14 +74,14 @@ body {
     margin: 24px;
     background: whitesmoke;
     Display: inline-block; 
+    border: 5px solid orange;
 }
 
 .cards img {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 24px;
-    margin-top: 24px;
-    border: 3px solid orange;
+    margin: 24px 0px;
+   
 }
 
 .cards #about a {
@@ -91,6 +101,7 @@ body {
     margin: 24px;
     background: whitesmoke;
     Display: inline-block;
+    border: 5px solid orange;
 }
 
 .cards #contact a {
@@ -108,6 +119,7 @@ body {
     margin-top: 30px;
     margin-bottom: 0px;
     border-radius: 10px;
+    border: 5px solid orange;
 }
 
 #gallery {
@@ -120,4 +132,5 @@ body {
     font-size: 75px;
     color: white;
     box-shadow: 4px 4px 12px orange;
+    border-radius: 10px;
 }
