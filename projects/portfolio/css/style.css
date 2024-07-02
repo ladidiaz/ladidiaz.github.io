@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgba(255, 166, 0, 0.47);
+}
+
+#layout {
+    width: 90%;
+    min-width: 500px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+}
+
+#hero-container {
+    background-image: url("../images/colorpencil1.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#hero-container h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 70px;
+    color: orange; 
+}
+
+#hero-container a {
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: orange;
+    color: whitesmoke;
+    border: solid 5px orange;
+    border-radius: 50%;
+    width: 100px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    border-radius: 10px;
+}
+
+.cards #about {
+    width: 350px;
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 24px;
+    background: whitesmoke;
+    Display: inline-block; 
+}
+
+.cards img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    border: 3px solid orange;
+}
+
+.cards #about a {
+    text-decoration: none;
+    text-align: center;
+    color: orange;
+    margin: 70px;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.cards #contact {
+    width: 350px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 24px;
+    background: whitesmoke;
+    Display: inline-block;
+}
+
+.cards #contact a {
+    text-decoration: none;
+    text-decoration: none;
+    text-align: center;
+    color: orange;
+    margin: 80px;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+#gallery img {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+#gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+#cta h2 {
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    box-shadow: 4px 4px 12px orange;
+}
