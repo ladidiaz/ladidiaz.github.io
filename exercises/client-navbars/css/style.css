@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* client 1 */
+
+#navbar {
+    background: linear-gradient(to bottom, tan, tan);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: brown;
+    padding: 18px;
+    font-size: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar #logo h1 {
+    width: 100%;
+}
+
+/* client 2 */
+
+#navbar2 {
+    background: linear-gradient(
+        to bottom, 
+        yellow, 
+        rgba(255, 255, 0, 0.289)
+        );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar2 a {
+    text-decoration: none;
+    color: orangered;
+    padding: 24px;
+}
+
+#navbar2 #logo img {
+    width: 150px;
+}
+
+#navbar2 .cta-buttom {
+    background-color: white;
+    color: orangered;
+    border: 3px solid orangered;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+/* client 3 */
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top {
+    background: #111111;
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 24px 0px;
+}
+
+#navbar-top .content-column div a {
+    padding: 24px;
+}
+
+#navbar-top #logo h1 {
+    width: 250px;
+}
+
+#navbar-top .cta-buttom {
+    background-color: rgb(223, 78, 25);
+    color: white;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+#navbar-bottom {
+    background: rgb(223, 78, 25);
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+
+#bogo {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    background-color: rgb(223, 78, 25);
+    padding: 12px;
+    font-size: 14px;
+}
