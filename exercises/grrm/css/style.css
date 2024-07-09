@@ -223,6 +223,15 @@ body {
     box-shadow: 0px 0px 8px black;
 }
 
+#banner-container,
+#card-1,
+#card-2,
+#card-3,
+#aside,
+#main {
+    background-color: #00000077;
+
+}
 /**************************************************************
     Banner and Cards Styling
 **************************************************************/
@@ -515,5 +524,16 @@ body {
 
     #nav a {
         flex: 200px;
+    }
+
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: transparent;
+        padding: 0px;
+        margin: 0px;
     }
 }
