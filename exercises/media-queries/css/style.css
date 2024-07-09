@@ -228,4 +228,9 @@ a {
         display: flex;
         flex-direction: column;
     }
+
+    .card a {
+        display: flex;
+        flex-direction: column;
+    }
 }
