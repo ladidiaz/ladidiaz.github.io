@@ -79,7 +79,7 @@ body {
     border-radius: 10px;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-8px);
+    transform: translateX(-8px);
     transition:
         opacity 0.5s,
         visibility 0.5s,
@@ -89,7 +89,7 @@ body {
 #gallery2:hover img {
     visibility: visible;
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateX(0px);
 }
 
 #gallery2 .card {
@@ -103,22 +103,6 @@ body {
 }
 
 /* galler3 */
-
-#gallery3 {
-    display: flex;
-    margin: 24px;
-}
-
-#gallery3 .card {
-    border: 3px solid black;
-    border-radius: 10px;
-    margin: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 500px;
-}
-
 
 #card9 {
     background-image: url(../images/big\ ben.jpg);
@@ -143,8 +127,54 @@ body {
 
 #card12 {
     background-image: url(../images/taj\ mahal.jpg);
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
+}
+
+#gallery3 {
+    display: flex;
     margin: 24px;
 }
+
+#gallery3 .card {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+#gallery3 .card h3 {
+    font-size: 36px;
+    color: navy;
+    margin: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition:
+    opacity 0.5s;
+    visibility: 0.5s;
+}
+
+#gallery3:hover .card h3 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#gallery3 a {
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: navy;
+    padding: 8px;
+    border-radius: 10px;
+    transition:
+        opacity 0.5s;
+        visibility: 0.5s;
+}
+
+#gallery3:hover a {
+    opacity: 0;
+    visibility: hidden;
+}
+
