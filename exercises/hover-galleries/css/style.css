@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+#hover-galleries h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+/* gallery1 */
+
+#gallery1 {
+    display: flex;
+    margin: 24px;
+}
+
+#gallery1 img {
+    width: 300px;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+#gallery1 .card {
+    border: 3px solid pink;
+    border-radius: 10px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightcoral;
+}
+
+#gallery1 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 12px;
+    color: pink;
+    font-size: 24px;
+    background-color: white;
+    margin: 20px;
+    border: 3px solid pink;
+    border-radius: 10px;
+    transition:
+        background-color 0.5s
+        back-shadow 0.5s,
+        transform 0.5s;
+}
+
+#gallery1:hover a {
+    background-color: pink;
+    color: white;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#gallery1 h3 {
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+/* gallery2 */
+
+#gallery2 {
+    display: flex;
+    margin: 24px;
+}
+
+#gallery2 img {
+    width: 300px;
+    padding: 12px;
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;      
+}
+
+#gallery2:hover img {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+#gallery2 .card {
+    border: 3px solid ;
+    border-radius: 10px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightsalmon;
+
+}
+
+#gallery2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 12px;
+    color: black;
+    font-size: 24px;
+    background-color: white;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
