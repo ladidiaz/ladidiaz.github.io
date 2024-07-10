@@ -49,7 +49,7 @@ body {
     border: 3px solid pink;
     border-radius: 10px;
     transition:
-        background-color 0.5s
+        background-color 0.5s,
         back-shadow 0.5s,
         transform 0.5s;
 }
@@ -83,12 +83,13 @@ body {
     transition:
         opacity 0.5s,
         visibility 0.5s,
-        transform 0.5s;      
+        transform 0.5s;        
 }
 
 #gallery2:hover img {
-    opacity: 0;
-    visibility: hidden;
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0px);
 }
 
 #gallery2 .card {
@@ -101,7 +102,7 @@ body {
     background-color: lightsalmon;
 }
 
-/* galler3 */
+/* gallery3 */
 
 #card9 {
     background-image: url(../images/big\ ben.jpg);
@@ -142,7 +143,6 @@ body {
     margin: 12px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 500px;
 }
 
@@ -152,8 +152,8 @@ body {
     margin: 12px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition:
-    opacity 0.5s;
-    visibility: 0.5s;
+        opacity 0.5s,
+        visibility 0.5s;
 }
 
 #gallery3:hover .card h3 {
@@ -180,4 +180,31 @@ body {
     visibility: visible;
     opacity: 1;
     transform: translateY(0px);
+}
+
+#card9 h3 {
+    display: flex;
+    flex-direction: column;   
+}
+
+#card10 h3 {
+    display: flex;
+    justify-content: center;  
+}
+
+#card11 h3 {
+    display: flex;
+    flex-direction: column;   
+}
+
+#card12 h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#card12 a {
+    display: flex;
+    justify-content: center;
+    margin-left: 24px;
+    margin-right: 24px;
 }
