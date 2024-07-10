@@ -87,9 +87,8 @@ body {
 }
 
 #gallery2:hover img {
-    visibility: visible;
-    opacity: 1;
-    transform: translateX(0px);
+    opacity: 0;
+    visibility: hidden;
 }
 
 #gallery2 .card {
@@ -168,13 +167,17 @@ body {
     background-color: navy;
     padding: 8px;
     border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
     transition:
-        opacity 0.5s;
-        visibility: 0.5s;
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;       
 }
 
 #gallery3:hover a {
-    opacity: 0;
-    visibility: hidden;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
 }
-
