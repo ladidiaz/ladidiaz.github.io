@@ -75,7 +75,7 @@ body {
 
 #gallery2 img {
     width: 100%;
-    padding: 12px;
+    padding: 12px 12px 2px;
     border-radius: 10px;
     opacity: 0;
     visibility: hidden;
@@ -108,6 +108,7 @@ body {
     display: flex;
     margin: 24px;
 }
+
 
 #card9 {
     background-image: url(../images/big\ ben.jpg);
