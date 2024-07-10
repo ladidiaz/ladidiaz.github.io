@@ -109,31 +109,42 @@ body {
     margin: 24px;
 }
 
+#gallery3 .card {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
 
 #card9 {
     background-image: url(../images/big\ ben.jpg);
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
 }
 
 #card10 {
     background-image: url(../images/colosseum.jpg);
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
 }
 
 #card11 {
     background-image: url(../images/eiffel\ tower.jpg);
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
 }
 
-#card10 {
+#card12 {
     background-image: url(../images/taj\ mahal.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
+    margin: 24px;
 }
