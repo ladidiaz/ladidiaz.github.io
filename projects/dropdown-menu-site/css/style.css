@@ -5,4 +5,125 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: url("../images/leafy\ background.jpg");
+}
+
+/* homepage */
+
+.center-column {
+    background-color: rgba(255, 255, 255, 0.201);
+    width: 80%;
+    margin: 0px auto;
+}
+
+#navbar {
+    background-color: rgb(34, 179, 34);
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar #menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 12px;
+    margin: 24px 12px;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+}
+
+#dropdown {
+    position: relative;
+}
+
+#navbar #dropdown {
+    position: absolute;
+    border: 3px solid rgb(34, 179, 34);
+    background-color: rgb(0, 128, 0);
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    margin: 0px;
+    padding: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+        display: flex;
+        flex-direction: column;
+}
+
+#navbar:hover #dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#dropdown a {
+    color:  rgb(34, 179, 34);
+    text-align: center;
+}
+
+#logo a {
+    padding: 18px;
+    color: rgb(225, 255, 0);
+    text-decoration: none;
+    font-family: 'Gill Sans',sans-serif;
+    display: flex;
+    text-align: center;
+}
+
+#hero {
+    background: url("../images/girlandparrot.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 50px;
+    border-radius: 30px;
+}
+
+#hero h1 {
+    margin: 48px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 75px;
+    text-align: center;
+}
+
+/* Pages */
+
+.card {
+    width: 500px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    Display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 80px;
+}
+
+.card h1 {
+    color: whitesmoke;
+    margin-top: 4px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 24px;
 }
