@@ -165,7 +165,3 @@ body {
     padding: 24px;
     margin: 24px;
 }
-
-.single-column-layout #footer p {
-    display: flex;
-}
