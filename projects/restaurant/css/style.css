@@ -257,5 +257,36 @@ body {
     padding-top: 0px;
 }
 
+/* media screen */
 
+@media screen and (max-width: 690px) {
+   
+    .navbar {
+        background-color: #231f20;
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+        top: 0px;
+    }
 
+    .navbar #links a {
+        font-size: 28px;
+        padding-bottom: 0px;
+        padding-top: 2px;  
+    }
+
+    .single-column-layout #hero a {
+        font-size: 40px;
+    }
+
+    .single-column-layout #hero {
+        background-image: url("../images/steakplate.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 24px;
+    }
+}
