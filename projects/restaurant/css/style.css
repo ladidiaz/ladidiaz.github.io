@@ -259,7 +259,7 @@ body {
 
 /* media screen */
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 700px) {
    
     .navbar {
         background-color: #231f20;
@@ -275,12 +275,47 @@ body {
         padding-top: 2px;  
     }
 
+    .single-column-layout {
+        background-color: #c2976b;
+        width: 60%;
+        min-width: 500px;
+    }
+
     .single-column-layout #hero a {
         font-size: 40px;
+        padding: 0px 12px;
+        margin: 12px;
     }
 
     .single-column-layout #hero {
         height: 60vh;
         padding: 50px;
     }
+
+    .single-column-layout #side-by-side {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .single-column-layout h1 {
+        font-size: 24px;
+    }
+    
+    .single-column-layout h2 {
+        font-size: 40px;
+    }
+    
+    .single-column-layout h3 {
+        font-size: 24px;
+
+    }
+    
+    .single-column-layout p {
+        font-size: 16px;
+    } 
 }
