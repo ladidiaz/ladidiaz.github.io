@@ -7,7 +7,6 @@ body {
     font-family: sans-serif;
 }
 
-
 #header h1 {
     text-align: center;
     color: #231f20;
@@ -184,6 +183,7 @@ body {
     font-size: 24px;
     padding: 12px;
     margin-top: 36px;
+    gap: 8px;
     background-color: #231f20;
 }
 
@@ -280,13 +280,7 @@ body {
     }
 
     .single-column-layout #hero {
-        background-image: url("../images/steakplate.jpg");
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 24px;
+        height: 60vh;
+        padding: 50px;
     }
 }
