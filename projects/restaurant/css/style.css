@@ -21,7 +21,7 @@ body {
 .navbar {
     background-color: #231f20;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0px;
@@ -31,17 +31,24 @@ body {
     width: 100px;
     display: flex;
     justify-content: center;
-    margin: 12px;
+    margin: 20px;
 }
 
-.navbar a {
+.navbar #links a {
     text-decoration: none;
     color: #c2976b;
     font-size: 36px;
     padding: 10px;
+    margin: 12px;
     font-family: "poetica-std", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.navbar #links a:hover {
+    background-color: #c2976b;
+    color: #231f20;
+    border: 3px solid #231f20;
 }
 
 .single-column-layout {
@@ -174,6 +181,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
+    font-size: 24px;
     padding: 12px;
     margin-top: 36px;
     background-color: #231f20;
@@ -185,6 +193,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 10px;
 }
 
 /* menu page */
@@ -198,7 +207,7 @@ body {
 
 
 .single-column-layout #featured-dish img {
-    width: 400px;
+    width: 50%;
     margin-top: 24px;
 }
 
