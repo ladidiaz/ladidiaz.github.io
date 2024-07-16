@@ -11,13 +11,17 @@ body {
 #header h1 {
     text-align: center;
     color: #231f20;
+    font-family: "acroterion-jf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: 12px;
 }
 
 .navbar {
     background-color: #231f20;
-    border: 3px solid #231f20;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     position: sticky;
     top: 0px;
@@ -25,14 +29,19 @@ body {
 
 .navbar img {
     width: 100px;
-    padding: 12px;
+    display: flex;
+    justify-content: center;
+    margin: 12px;
 }
 
 .navbar a {
     text-decoration: none;
     color: #c2976b;
-    font-size: 24px;
+    font-size: 36px;
     padding: 10px;
+    font-family: "poetica-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .single-column-layout {
@@ -59,8 +68,11 @@ body {
     color: #FFFFFF;
     font-size: 60px;
     background-color: #231f20;
-    padding: 24px;
+    padding: 0px 12px;
     margin: 24px;
+    font-family: "poetica-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .single-column-layout #hero a:hover {
@@ -78,7 +90,7 @@ body {
 }
 
 .single-column-layout #side-by-side img {
-    width: 400px;
+    width: 450px;
     padding: 36px;
 }
 
@@ -86,13 +98,19 @@ body {
     padding: 24px;
     font-size: 18px;
     text-align: center;
+    font-family: "ltc-bodoni-175", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .cards {
     width: 80%;
     display: flex; 
     margin-right: auto;
-    margin-left: auto;  
+    margin-left: auto;
+    font-family: "poetica-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .cards #card1 {
