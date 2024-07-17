@@ -136,19 +136,11 @@ body {
     }
     
     .single-column-layout #header h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
     
     .single-column-layout #teams {
         flex-direction: column;
         align-items: center;
     }
-
-    .buttons {
-        display: flex;
-        justify-content: center;
-        flex-direction: ;
-        margin: 24px;
-    }
-
 }
