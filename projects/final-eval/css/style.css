@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/field.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.single-column-layout {
+    width: 1000px;
+    margin: 48px auto;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.563);
+    border-radius: 10px;
+}
+
+.single-column-layout #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-column-layout #header h1 {
+  margin: 0px;
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.single-column-layout #header h2 {
+    font-size: 26px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.single-column-layout #teams {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.single-column-layout #teams img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.single-column-layout #teams h2 {
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.single-column-layout #invite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-column-layout #invite h2 {
+    font-size: 32px;
+    margin: 12px;
+}
+
+.single-column-layout #invite p {
+    font-size: 24px;
+    text-align: center;
+    padding: 12px;
+    margin: 12px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+
+.buttons a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+.buttons #button1 a {
+    background-color: rgb(4, 4, 97);
+    color: white;
+    padding: 12px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.buttons #button1 a:hover {
+    background-color: white;
+    color: rgb(4, 4, 97);
+    border: 3px solid rgb(4, 4, 97);
+}
+
+.buttons #button2 a {
+    background-color: rgb(36, 97, 36);
+    color: white;
+    padding: 12px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.buttons #button2 a:hover {
+    background-color: white;
+    color: rgb(36, 97, 36);
+    border: 3px solid rgb(36, 97, 36);
+}
+
+.single-column-layout #questions {
+   text-align: center;
+   padding: 12px;
+   font-size: 24px;
+   font-weight: bold;
+}

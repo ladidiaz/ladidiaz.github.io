@@ -270,9 +270,9 @@ body {
     }
 
     .navbar #links a {
-        font-size: 30px;
+        font-size: 28px;
         padding-bottom: 0px;
-        padding-top: 2px;  
+        padding-top: 2px;
     }
 
     .single-column-layout {
@@ -295,11 +295,15 @@ body {
     .single-column-layout #side-by-side {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .cards {
         display: flex;
         flex-direction: column; 
+        justify-content: center;
+        align-items: center;
     }
 
     .single-column-layout h1 {
@@ -312,7 +316,6 @@ body {
     
     .single-column-layout h3 {
         font-size: 24px;
-
     }
     
     .single-column-layout p {
