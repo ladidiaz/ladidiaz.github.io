@@ -50,6 +50,12 @@ body {
     border: 3px solid #231f20;
 }
 
+.navbar #links a:active {
+    color: #c2976b;
+    background-color: #231f20;
+    border: 3px solid #c2976b;
+}
+
 .single-column-layout {
     background-color: #c2976b;
     width: 80%;
@@ -85,6 +91,12 @@ body {
     background-color: #c2976b;
     color: #231f20;
     border: 3px solid #231f20;
+}
+
+.single-column-layout #hero a:active {
+    color: #c2976b;
+    background-color: #231f20;
+    border: 3px solid #c2976b;
 }
 
 .single-column-layout #side-by-side {
@@ -173,6 +185,12 @@ body {
     background-color: #c2976b;
     color: #231f20;
     border: 3px solid #231f20;
+}
+
+.cards a:active {
+    color: #c2976b;
+    background-color: #231f20;
+    border: 3px solid #c2976b;
 }
 
 .single-column-layout #icons {
