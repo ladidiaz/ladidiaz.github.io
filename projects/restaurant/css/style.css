@@ -62,6 +62,8 @@ body {
     min-width: 800px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 0px;
+    padding: 24px;
 }
 
 .single-column-layout #hero {
@@ -102,9 +104,10 @@ body {
 .single-column-layout #side-by-side {
     display: flex;
     justify-content: center;
-    align-items: center;
-    border: 3px solid #231f20;
+    align-items: center; 
     margin: 40px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #231f20;
 }
 
 .single-column-layout #side-by-side img {
@@ -193,25 +196,25 @@ body {
     border: 3px solid #c2976b;
 }
 
-.single-column-layout #icons {
+#footer #icons {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
     font-size: 24px;
     padding: 12px;
-    margin-top: 36px;
+    margin-top: 0px;
     gap: 8px;
     background-color: #231f20;
 }
 
-.single-column-layout #copyright {
+#footer #copyright {
     background-color: #231f20;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 /* menu page */
@@ -229,6 +232,10 @@ body {
     margin-top: 24px;
 }
 
+#featured-dish p {
+    padding: 12px;
+}
+
 .single-column-layout h1 {
     font-family: "poetica-std", sans-serif;
     font-weight: 400;
@@ -243,7 +250,6 @@ body {
 
 .single-column-layout h2 {
     font-family: "acroterion-jf", sans-serif;
-    font-weight: 400;
     font-style: normal;
     font-size: 50px;
     margin: 50px;
