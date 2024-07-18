@@ -69,13 +69,14 @@ body {
 
 .single-column-layout #hero {
     background-image: url("../images/steakplate.jpg");
-    height: 100vh;
+    height: 85vh;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 24px;
+    margin: 36px;
 }
 
 .single-column-layout #hero a {
