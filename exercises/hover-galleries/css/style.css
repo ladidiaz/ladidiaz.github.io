@@ -54,7 +54,10 @@ body {
         transform 0.5s;
 }
 
-#gallery1:hover a {
+#card1:hover a,
+#card2:hover a,
+#card3:hover a,
+#card4:hover a {
     background-color: pink;
     color: white;
     box-shadow: 4px 4px 4px #00000033;
@@ -86,7 +89,10 @@ body {
         transform 0.5s;        
 }
 
-#gallery2:hover img {
+#card5:hover img,
+#card6:hover img,
+#card7:hover img,
+#card8:hover img {
     visibility: visible;
     opacity: 1;
     transform: translateX(0px);
@@ -155,7 +161,10 @@ body {
         visibility 0.5s;
 }
 
-#gallery3:hover .card h3 {
+#card9:hover h3,
+#card10:hover h3,
+#card11:hover h3,
+#card12:hover h3 {
     opacity: 0;
     visibility: hidden;
 }
@@ -175,7 +184,10 @@ body {
         transform 0.5s;       
 }
 
-#gallery3:hover a {
+#card9:hover a,
+#card10:hover a,
+#card11:hover a,
+#card12:hover a    {
     visibility: visible;
     opacity: 1;
     transform: translateY(0px);
